@@ -1,0 +1,10 @@
+package:
+  name: esmpy
+  version: HEAD
+build: 
+  number: 1
+requirements:
+  run:
+    - python
+about:
+  summary: http://www.earthsystemmodeling.org/
