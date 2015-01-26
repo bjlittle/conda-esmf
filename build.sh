@@ -8,6 +8,6 @@ make -j 4
 make install
 export ESMFMKFILE=`find $ESMF_INSTALL_PREFIX -name '*.mk'`
 cd src/addon/ESMPy/
-python setup.py build --ESMFMKFILE=$ESMFMKFILE
-python setup.py install
+$PYTHON setup.py build --ESMFMKFILE=$ESMFMKFILE
+$PYTHON setup.py install
 
