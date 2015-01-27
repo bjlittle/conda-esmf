@@ -8,6 +8,11 @@ source:
 requirements:
   build:
     - python
+    - numpy
+    - esmf
+  run:
+    - python
+    - numpy
     - esmf
 about:
   summary: https://www.earthsystemcog.org/projects/esmpy/
