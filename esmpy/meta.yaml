@@ -3,6 +3,8 @@ package:
   version: HEAD
 build: 
   number: 2
+source:
+  git_url: git://git.code.sf.net/p/esmf/esmf
 requirements:
   build:
     - python
