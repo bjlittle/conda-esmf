@@ -1,10 +1,9 @@
 package:
-  name: esmpy
+  name: esmf
   version: HEAD
 build: 
   number: 1
-requirements:
-  run:
-    - python
+source:
+  git_url: git://git.code.sf.net/p/esmf/esmf esmf
 about:
   summary: http://www.earthsystemmodeling.org/
