@@ -4,6 +4,6 @@ package:
 build: 
   number: 1
 source:
-  git_url: git://git.code.sf.net/p/esmf/esmf esmf
+  git_url: git://git.code.sf.net/p/esmf/esmf
 about:
   summary: http://www.earthsystemmodeling.org/
