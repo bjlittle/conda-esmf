@@ -1,8 +1,7 @@
 #!/bin/bash
 
-export ESMFMKFILE=`find ${PREFIX} -name '*.mk'`
+export ESMFMKFILE=`find ${PREFIX} -name '*esmf.mk'`
 ESMPY_SRC=`find . -name '*ESMPy*'`
-echo $ESMPY_SRC
-exit 1
+cd ${ESMPY_SRC}
 ${PYTHON} setup.py build --ESMFMKFILE=${ESMFMKFILE}
 ${PYTHON} setup.py install
