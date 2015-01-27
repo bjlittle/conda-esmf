@@ -1,0 +1,11 @@
+package:
+  name: esmpy
+  version: HEAD
+build: 
+  number: 2
+requirements:
+  build:
+    - python
+    - esmf
+about:
+  summary: https://www.earthsystemcog.org/projects/esmpy/

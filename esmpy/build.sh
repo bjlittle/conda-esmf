@@ -1,7 +1,8 @@
 #!/bin/bash
 
-
-export ESMFMKFILE=`find $ESMF_INSTALL_PREFIX -name '*.mk'`
+echo `env`
+exit 1
+export ESMFMKFILE=`find ${ESMF_INSTALL_PREFIX} -name '*.mk'`
 cd src/addon/ESMPy/
-python setup.py build --ESMFMKFILE=$ESMFMKFILE
-python setup.py install
+${PYTHON} setup.py build --ESMFMKFILE=$ESMFMKFILE
+${PYTHON} setup.py install
