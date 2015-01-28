@@ -8,9 +8,9 @@ source:
 
 requirements:
   build:
-    - bekozi/netcdf-c
+    - bekozi netcdf-c
   run:
-    - bekozi/netcdf-c
+    - bekozi netcdf-c
 
 about:
   home: http://www.unidata.ucar.edu/software/netcdf/
