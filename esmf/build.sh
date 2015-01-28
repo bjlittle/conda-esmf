@@ -1,8 +1,11 @@
 #!/bin/bash
 
-#git clone --depth 1 git://git.code.sf.net/p/esmf/esmf esmf
-#cd esmf/
 export ESMF_DIR=`pwd`
-export ESMF_INSTALL_PREFIX=$PREFIX
+export ESMF_INSTALL_PREFIX=${PREFIX}
+export ESMF_NETCDF="split"
+
+echo ls
+exit 1
+
 make -j 4
 make install
