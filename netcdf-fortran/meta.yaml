@@ -1,0 +1,17 @@
+package:
+  name: netcdf-fortran
+  version: 4.3.2
+
+source:
+  fn: netcdf-fortran-4.4.1.tar.gz
+  url: ftp://ftp.unidata.ucar.edu/pub/netcdf/netcdf-fortran-4.4.1.tar.gz
+
+requirements:
+  build:
+    - bekozi/netcdf-c
+  run:
+    - bekozi/netcdf-c
+
+about:
+  home: http://www.unidata.ucar.edu/software/netcdf/
+  license: MIT

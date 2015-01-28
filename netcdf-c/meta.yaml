@@ -17,11 +17,6 @@ requirements:
     - hdf5
     - zlib
 
-test:
-  commands:
-    - ncdump
-    - nc-config --help
-
 about:
   home: http://www.unidata.ucar.edu/software/netcdf/
   license: MIT
