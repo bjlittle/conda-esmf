@@ -1,9 +1,20 @@
 package:
   name: esmf
   version: HEAD
+
 build: 
   number: 1
+
 source:
   git_url: git://git.code.sf.net/p/esmf/esmf
+
+requirements:
+  build:
+    - netcdf-c
+    - netcdf-fortran
+  run:
+    - netcdf-c
+    - netcdf-fortran
+
 about:
   summary: http://www.earthsystemmodeling.org/
