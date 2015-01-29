@@ -9,7 +9,6 @@ source:
 requirements:
   build:
     - netcdf-c
-    - gfortran
   run:
     - netcdf-c
 
