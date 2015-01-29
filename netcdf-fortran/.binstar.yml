@@ -37,7 +37,7 @@ platform:
 
 ## Run before the script
 before_script:
-   - conda config --add channels bekozi
+   - conda config --add channels bekozi/dev
 ## Put your main computations here!  
 script:
    - conda build .
