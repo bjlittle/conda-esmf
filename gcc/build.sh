@@ -10,9 +10,6 @@ export CFLAGS="-I${PREFIX}/include $CFLAGS"
 
 ${SRCDIR}/configure --prefix=${INSTALLDIR} --enable-languages=c,fortran --disable-multilib
 
-echo `ls`
-exit 1
-
 make -j 4
 make install
 
