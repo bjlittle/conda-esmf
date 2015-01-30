@@ -1,8 +1,14 @@
 #!/bin/bash
 
+SRCDIR=`pwd`
+OBJDIR=${PREFIX}/objdir
+
+mkdir OBJDIR
+cd OBJDIR
+
 export CFLAGS="-I${PREFIX}/include $CFLAGS"
 
-./configure --prefix=${PREFIX} --enable-languages=c,fortran --disable-multilib
+${SRCDIR}/configure --prefix=${PREFIX} --enable-languages=c,fortran --disable-multilib
 
 make -j 4
 make install
