@@ -8,7 +8,7 @@
 #
 export CFLAGS="-I${PREFIX}/include $CFLAGS"
 #
-#${SRCDIR}/configure --prefix=${INSTALLDIR} --enable-languages=c,fortran --disable-multilib
+#${SRCDIR}/configure --prefix=${INSTALLDIR} --enable-languages=c,c++fortran --disable-multilib
 #
 #make -j 4
 #make install
@@ -19,7 +19,8 @@ export CFLAGS="-I${PREFIX}/include $CFLAGS"
 
 ./configure \
     --prefix=$PREFIX \
-    --disable-multilib
+    --disable-multilib \
+    --enable-languages=c,c++,fortran
 
 make
 make install
