@@ -3,7 +3,6 @@
 SRCDIR=`pwd`
 OBJDIR=`mktemp`
 
-mkdir ${OBJDIR}
 pushd ${OBJDIR}
 
 export CFLAGS="-I${PREFIX}/include $CFLAGS"
