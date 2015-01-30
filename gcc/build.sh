@@ -20,7 +20,8 @@ export CFLAGS="-I${PREFIX}/include $CFLAGS"
 ./configure \
     --prefix=${PREFIX} \
     --disable-multilib \
-    --enable-languages=c,c++,fortran
+    --enable-languages=c,c++,fortran \
+    --enable-threads
 
 make
 make install
