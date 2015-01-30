@@ -6,7 +6,7 @@
 #
 #pushd ${OBJDIR}
 #
-#export CFLAGS="-I${PREFIX}/include $CFLAGS"
+export CFLAGS="-I${PREFIX}/include $CFLAGS"
 #
 #${SRCDIR}/configure --prefix=${INSTALLDIR} --enable-languages=c,fortran --disable-multilib
 #
@@ -19,9 +19,6 @@
 
 ./configure \
     --prefix=$PREFIX \
-    --with-gmp=$PREFIX \
-    --with-mpfr=$PREFIX \
-    --with-mpc=$PREFIX \
     --disable-multilib
 
 make
