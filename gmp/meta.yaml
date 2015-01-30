@@ -6,6 +6,12 @@ source:
   fn: gmp-6.0.0a.tar.bz2
   url: https://ftp.gnu.org/gnu/gmp/gmp-6.0.0a.tar.bz2
 
+requirements:
+  build:
+    - m4
+  run:
+    - m4
+
 about:
   home:
   license:

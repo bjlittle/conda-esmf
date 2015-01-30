@@ -1,0 +1,11 @@
+package:
+  name: mpc
+  version: 1.0.2
+
+source:
+  fn: mpc-1.0.2.tar.gz
+  url: ftp://ftp.gnu.org/gnu/mpc/mpc-1.0.2.tar.gz
+
+about:
+  home:
+  license:
