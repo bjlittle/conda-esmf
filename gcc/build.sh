@@ -1,7 +1,7 @@
 #!/bin/bash
 
 SRCDIR=`pwd`
-OBJDIR=`mktemp`
+OBJDIR=`mktemp -d`
 
 pushd ${OBJDIR}
 
