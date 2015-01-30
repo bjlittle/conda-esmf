@@ -1,0 +1,11 @@
+package:
+  name: gmp
+  version: 6.0.0
+
+source:
+  fn: gmp-6.0.0a.tar.bz2
+  url: https://ftp.gnu.org/gnu/gmp/gmp-6.0.0a.tar.bz2
+
+about:
+  home:
+  license:
