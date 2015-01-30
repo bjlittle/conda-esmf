@@ -18,7 +18,7 @@ export CFLAGS="-I${PREFIX}/include $CFLAGS"
 #rm -r ${OBJDIR}
 
 ./configure \
-    --prefix=$PREFIX \
+    --prefix=${PREFIX} \
     --disable-multilib \
     --enable-languages=c,c++,fortran
 
