@@ -12,9 +12,11 @@ requirements:
   build:
     - netcdf-c
     - netcdf-fortran
+    - gcc
   run:
     - netcdf-c
     - netcdf-fortran
+    - gcc
 
 about:
   summary: http://www.earthsystemmodeling.org/

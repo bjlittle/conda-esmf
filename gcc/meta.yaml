@@ -1,0 +1,11 @@
+package:
+  name: gcc
+  version: 4.9.2
+
+source:
+  fn: gcc-4.9.2.tar.bz2
+  url: ftp://ftp.gnu.org/gnu/gcc/gcc-4.9.2/gcc-4.9.2.tar.bz2
+
+about:
+  home:
+  license:

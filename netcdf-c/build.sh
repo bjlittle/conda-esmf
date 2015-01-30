@@ -8,5 +8,6 @@ export LDFLAGS="-L${PREFIX}/lib $LDFLAGS"
     --enable-netcdf-4 \
     --enable-dap \
     --prefix=${PREFIX}
-make
+
+make -j 4
 make install
