@@ -1,7 +1,7 @@
 #!/bin/bash
 
 SRCDIR=`pwd`
-OBJDIR=/tmp/objdir
+OBJDIR=`mktemp`
 
 mkdir OBJDIR
 cd OBJDIR
