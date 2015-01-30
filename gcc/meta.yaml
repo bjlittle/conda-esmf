@@ -1,10 +1,10 @@
 package:
   name: gcc
-  version: 4.9.2
+  version: 4.8.2
 
 source:
-  fn: gcc-4.9.2.tar.bz2
-  url: ftp://ftp.gnu.org/gnu/gcc/gcc-4.9.2/gcc-4.9.2.tar.bz2
+  fn: gcc-4.8.2.tar.bz2
+  url: ftp://ftp.gnu.org/gnu/gcc/gcc-4.9.2/gcc-4.8.2.tar.bz2
 
 requirements:
   build:
