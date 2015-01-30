@@ -9,8 +9,12 @@ source:
 requirements:
   build:
     - gmp
+    - mpc
+    - mpfr
   run:
     - gmp
+    - mpc
+    - mpfr
 
 about:
   home:
