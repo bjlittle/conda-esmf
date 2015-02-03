@@ -6,6 +6,7 @@
 #
 #pushd ${OBJDIR}
 #
+export PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
 export CFLAGS="-I${PREFIX}/include $CFLAGS"
 #
 #${SRCDIR}/configure --prefix=${INSTALLDIR} --enable-languages=c,c++fortran --disable-multilib
