@@ -3,7 +3,7 @@ package:
   version: 4.8.1
 
 source:
-  fn: gcc-4.8.2.tar.bz2
+  fn: gcc-4.8.1.tar.bz2
   url: http://mirrors-usa.go-parts.com/gcc/releases/gcc-4.8.1/gcc-4.8.1.tar.bz2
 
 requirements:
