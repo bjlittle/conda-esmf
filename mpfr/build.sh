@@ -4,5 +4,5 @@ export CFLAGS="-I${PREFIX}/include $CFLAGS"
 
 ./configure --prefix=${PREFIX}
 
-make -j 4
+make
 make install
