@@ -12,6 +12,7 @@ requirements:
     - curl
     - hdf5
     - zlib
+    - gcc
   run:
     - curl
     - hdf5

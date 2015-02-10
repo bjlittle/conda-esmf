@@ -1,5 +1,6 @@
 #!/bin/bash
 
+export PATH=${PREFIX}/gcc/bin:${PATH}
 export CFLAGS="-I${PREFIX}/include $CFLAGS"
 export LDFLAGS="-L${PREFIX}/lib $LDFLAGS"
 
@@ -9,5 +10,5 @@ export LDFLAGS="-L${PREFIX}/lib $LDFLAGS"
     --enable-dap \
     --prefix=${PREFIX}
 
-make -j 4
+make
 make install
