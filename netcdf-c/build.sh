@@ -1,5 +1,7 @@
 #!/bin/bash
 
+echo `ls ${PREFIX}/gcc`
+exit 1
 export PATH=${PREFIX}/gcc/bin:${PATH}
 export CFLAGS="-I${PREFIX}/include $CFLAGS"
 export LDFLAGS="-L${PREFIX}/lib $LDFLAGS"
