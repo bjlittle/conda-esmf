@@ -17,11 +17,21 @@ export CFLAGS="-I${PREFIX}/include $CFLAGS"
 #
 #rm -r ${OBJDIR}
 
-./configure \
-    --prefix=${PREFIX} \
-    --disable-multilib \
-    --enable-languages=c,c++,fortran \
-    --enable-threads
+#./configure \
+#    --prefix=${PREFIX} \
+#    --disable-multilib \
+#    --enable-languages=c,c++,fortran \
+#    --enable-threads
+
+./configure --prefix=${PREFIX}/gcc \
+            --enable-languages=c,c++,fortran \
+            --enable-checking=release \
+            --disable-bootstrap \
+            --enable-threads \
+            --with-gmp=${PREFIX}/gmp \
+            --with-mpfr=${PREFIX}/mpfr \
+            --with-mpc=${PREFIX}/mpc \
+            --disable-multilib
 
 make
 make install
