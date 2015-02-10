@@ -1,6 +1,6 @@
 #!/bin/bash
 
-./configure --prefix=${PREFIX}
+./configure --prefix=${PREFIX}/gmp
 
 make
 make check

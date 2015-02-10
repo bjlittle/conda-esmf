@@ -6,12 +6,6 @@ source:
   fn: gmp-5.1.2.tar.bz2
   url: https://ftp.gnu.org/gnu/gmp/gmp-5.1.2.tar.bz2
 
-requirements:
-  build:
-    - m4
-  run:
-    - m4
-
 about:
   home:
   license:
