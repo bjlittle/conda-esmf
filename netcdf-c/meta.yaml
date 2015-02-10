@@ -17,6 +17,7 @@ requirements:
     - curl
     - hdf5
     - zlib
+    - gcc
 
 about:
   home: http://www.unidata.ucar.edu/software/netcdf/

@@ -9,8 +9,10 @@ source:
 requirements:
   build:
     - netcdf-c
+    - gcc
   run:
     - netcdf-c
+    - gcc
 
 about:
   home: http://www.unidata.ucar.edu/software/netcdf/
