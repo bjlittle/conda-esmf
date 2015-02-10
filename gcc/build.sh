@@ -6,7 +6,7 @@
 #
 #pushd ${OBJDIR}
 #
-export CFLAGS="-I${PREFIX}/include $CFLAGS"
+#export CFLAGS="-I${PREFIX}/include $CFLAGS"
 #
 #${SRCDIR}/configure --prefix=${INSTALLDIR} --enable-languages=c,c++fortran --disable-multilib
 #

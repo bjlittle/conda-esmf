@@ -2,7 +2,7 @@
 
 #echo `find $PREFIX -name '*gmp.h'`
 
-export CFLAGS="-I${PREFIX}/include $CFLAGS"
+#export CFLAGS="-I${PREFIX}/include $CFLAGS"
 
 #./configure --prefix=${PREFIX}
 ./configure --prefix=${PREFIX}/mpc \
